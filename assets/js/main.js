@@ -7,18 +7,18 @@
 const pageNavLinks = document.querySelectorAll('.scrollto');
 
 pageNavLinks.forEach((pageNavLink) => {
-	
-	pageNavLink.addEventListener('click', (e) => {
-		
-		e.preventDefault();
-		
-		var target = pageNavLink.getAttribute("href").replace('#', '');
-		
-		//console.log(target);
-		
-        document.getElementById(target).scrollIntoView({ behavior: 'smooth' });
 
-		
-    });
-	
+  pageNavLink.addEventListener('click', (e) => {
+
+    e.preventDefault();
+
+    var target = pageNavLink.getAttribute("href").replace('#', '');
+
+    //console.log(target);
+    var element = document.getElementById(target);
+    element.scrollIntoView({ behavior: 'smooth' });
+    element.classList.add("blink");
+
+  });
+
 });

@@ -1,0 +1,10 @@
+.blink {
+  /* animation: blinker 1s linear infinite; */
+  animation: blinker 1s 5 ease-in-out;
+}
+
+@keyframes blinker {
+  50% {
+    background-color: antiquewhite;
+  }
+}
