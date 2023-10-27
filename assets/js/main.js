@@ -17,7 +17,7 @@ pageNavLinks.forEach((pageNavLink) => {
     //console.log(target);
     var element = document.getElementById(target);
     element.scrollIntoView({ behavior: 'smooth' });
-    element.classList.add("blink");
+    if (target != 'price-section') element.classList.add("blink");
 
   });
 
