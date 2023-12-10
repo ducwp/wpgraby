@@ -1,0 +1,8 @@
+Redirect /download   /TEST.zip
+Redirect /co-ban     https://shop.wpgraby.com/thanh-toan/?add-to-cart=27&quantity=1
+Redirect /nang-cao   https://shop.wpgraby.com/thanh-toan/?add-to-cart=28&quantity=1
+Redirect /cao-cap    https://shop.wpgraby.com/thanh-toan/?add-to-cart=29&quantity=1
+Redirect /dac-biet   https://shop.wpgraby.com/thanh-toan/?add-to-cart=638&quantity=1
+Redirect /fifu       https://vi.wordpress.org/plugins/featured-image-from-url/
+Redirect /tools      https://www.facebook.com/groups/867483524956869/announcements
+Redirect /siteconfig https://siteconfig.fivefilters.net/
